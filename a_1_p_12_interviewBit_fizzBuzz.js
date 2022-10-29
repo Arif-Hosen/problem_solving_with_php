@@ -19,9 +19,8 @@ const fizzBuzz = (a)=>{
         }
     }
 
-    for( let i =0; i<stringsArray.length; i++){
-        console.log(stringsArray[i]);
-    }
+    return stringsArray;
 }
 
-fizzBuzz(15);
+const result = fizzBuzz(5);
+console.log('Result = ',result );
