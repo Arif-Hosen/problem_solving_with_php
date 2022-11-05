@@ -1,0 +1,61 @@
+####-- Space Complexity ---####
+Space complexity is an important things when we make a solution to a program. When a machine 
+execute a program it requires memory spaces.So we need to make an efficient algorithm of a 
+program.
+
+Space Complexity-
+Space Complexity is total amount of memory takes to execute a program of the algorithm.
+There are 3 reasons to used memory of a algorithm- 
+	1) Instrunction Space
+	2) Environmental Stack
+	3) Data Space
+ *** We are consider only Data Space while writing an algorithm.
+Data Space-\
+Some space are required during execute a program to store constant and variables values.
+
+2 ways to calculation space complexity of an algorithm- 1) Constant 2) Linear
+
+here, we need to know the value of memory used for different types of data type of variables.
+	-> integer variable require 4 bytes of memory space
+	-> float variable require 4 bytes of memory space
+	-> double variable require 8 bytes of memory space
+
+
+* O(1) - Constant space complexity considered when a algorithm doesn't contain any loop, recursive
+function and function call.
+
+ex:1
+ {
+   int r = a * b * c * d * e;
+   return(r);
+}
+
+Above example, we see a, b, c, d, e and r are integer types. Thoose are take 4 bytes memory. and 
+4 bytes for return value.
+So space is - (4 * 6) + 4 = 28 bytes. Fixed amount of space need for all inputs. So, it is a Constant 
+Space Complexity.
+
+
+* O(n) -Linear space complexity considered when the program depend on numbers of array element. Simply, 
+this types of complexity conatins loop.
+
+ex: 2
+// n is the length of array a[]
+int sub(int arr[], int n)
+{
+int sub = 0;  // 4 bytes for sub
+int sum = 0;  // 4 bytes for sum
+for(int i = 0; i < n; i++) // 4 bytes for i
+{  
+    sum = sum + arr[i];
+    sub = sub - arr[i];  
+}
+return [sub,sum];
+}
+
+-> here, 4*n bytes of space needs for each element of array
+-> n, sub, sum ,i values required 4 bytes for each and return values required 8 bytes
+So, total amount of memeory is, 4 * n + 4 * 4 + 8 = 4n + 24.  It is increasing with the length of array (n),
+S0, this types of complexity is Linear Space Complexity.
+
+When we will design a algorithm, always try to make an algorithm which required less time and space.
