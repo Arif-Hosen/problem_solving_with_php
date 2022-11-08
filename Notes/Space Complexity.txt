@@ -1,6 +1,6 @@
 ####-- Space Complexity ---####
-Space complexity is an important things when we make a solution to a program. When a machine 
-execute a program it requires memory spaces.So we need to make an efficient algorithm of a 
+Space complexity is an important things when we make a solution of a program. When a machine 
+execute a program it requires memory spaces. So we need to make an efficient algorithm of a 
 program.
 
 Space Complexity-
@@ -32,7 +32,7 @@ ex:1
 
 Above example, we see a, b, c, d, e and r are integer types. Thoose are take 4 bytes memory. and 
 4 bytes for return value.
-So space is - (4 * 6) + 4 = 28 bytes. Fixed amount of space need for all inputs. So, it is a Constant 
+So space is required- (4 * 6) + 4 = 28 bytes. Fixed amount of space need for all inputs. So, it is a Constant 
 Space Complexity.
 
 
