@@ -1,5 +1,7 @@
 <!-- https://leetcode.com/problems/contains-duplicate-ii/ -->
 
+<!-- mentorship slot booking -->
+<!-- https://adplist.org/mentors/ahmed-shamim -->
 <?php
 function containsNearByDuplicate($nums,$k){
     $hashMap = [];
