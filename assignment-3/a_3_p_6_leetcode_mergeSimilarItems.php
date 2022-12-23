@@ -2,10 +2,10 @@
 
 <?php
 // approach
-// 1)Initalize a hashmap, an array and 3 variable
+// 1) Initalize a hashmap, an array and 3 variable
 // 2) loop through on two 2D array and check the array value of array is exists in hashmap's key, if not insert the array value in hashkey and weight in hashmap's value, if exists add the array's weight with hashmap value
-// traverse the hashmap and assign the key and value in initialized array
-// sort the array and return the array
+// 3) traverse the hashmap and assign the key and value in initialized array
+// 4) sort the array and return the array
 function mergeSimilarItems($items1, $items2)
 {
     $hashMap = [];
