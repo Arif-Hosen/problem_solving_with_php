@@ -1,5 +1,13 @@
 <!-- https://www.hackerrank.com/challenges/time-conversion/problem -->
-
+<!-- 
+    Approach:
+    1. Initialize a hash map
+    2. Loop through 12 times to store 24 hour format
+    3. Get the 24 hour format value from hashmap to using given string's index
+    4. Concat hashmap given hour with minute, second of given string 12 hr format
+    5. return concated 24 hour (military) format time
+    * Time Complexity: O(1) , Space Complexity: O(n)
+ -->
 <?php
 function timeConversion($s){
     $hashMap = [];
